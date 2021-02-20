@@ -14,5 +14,5 @@ const s = serve({ port: port });
 console.log("http://localhost:" + port);
 
 for await (const req of s) {
-  req.respond({ body: "HIer könnte REST stehen automatic !!!\n" });
+  req.respond({ body: "CI CD für Arme :D\n" });
 }
